@@ -1,6 +1,16 @@
+Title: The Distance between Hospital and Lifelans in City of Vancouver
+
 The final look of the map
 <img width="898" alt="lab2 sreenshot" src="https://user-images.githubusercontent.com/59896936/76237745-fd1d8300-61eb-11ea-81a9-68199b225b09.png">
 
 The web map link: https://ubc-geob472-spring2020.github.io/mjrlab2/mjrlab2.html
 
 The working link: https://editor.p5js.org/jingranma1999/sketches/h7JJVhKs
+
+  Last week, a friend of mine had an emergency and needed a blood test as soon as possible. However, she had a hard time finding a Lifelab that could be opened and started working early in the morning. Therefore, it inspired me, and I created this interactive map to show the location of each "early open" Lifelabs and the hospital closest to it.The key issues of this map attempt to ask are location, distance and efficiency. I used the "turf line" function to find the shortest distance and to create a visualization of the distance between two points.I think this may be rough (but not precise enough) to help you find the nearest Lifelab and hospital for testing and treatment, because in real life, the distance between two points is not always straight.
+
+  I tried to design this map very concise and easy to understand. There is no unnecessary decoration or beautification on the map. I also added a description box to help users understand how things work and how they interact with map. For this design process, first I collected all the data I need and put it into the code. Then added several features piece by piece. Finally, I added a instruction box and text in the upper left corner. By clicking on a point on the map, users can get useful information, such as the distance between these two locations. Then they can adjust their time wisely and arrange their lives. Efficiency is what everyone wants.
+  
+  When it comes to data selection, I actually don't think I'm doing well. Because the coordinates of each point were entered manually, I wasted a lot of time. If the data is incorrect or very large, I can't imagine what going to happen. I know that an experienced and capable computer science student will use a crawler to gather the required information in an html file and easily form and organize the data.However, as a novice, I really don’t know these things. So next time, I will choose my data wisely.Moreover, I am not satisfied with the cartographic style of this map. Hospital and Lifelab symbols are small. I actually tried to fix it, but I used the default icon, called "Maki Icon", which couldn't be resized.I tried several ways to add my own icon, but all failed. I think my map has a lot of to improve, such as the data collection and style adjustments I mentioned above. In doing so, maybe this map could cover the data of whole greater Vancouver area and conduct some research on the geospatial distribution and relationship between the hospital and Lifelabs.From a visualization perspective, I need to make each feature and visual effect smoother and more visually pleasing.
+  
+  Since I make this map by myself, I mainly use the tutorials on the official Mapbox website and some technical blogs as my information resource. This is a wonderful experience to explore new things and learn by yourself. I leart how to do the "turf line" to measure distance and "popup" to show the proximity of Lifelabs and Hospitals.
